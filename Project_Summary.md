@@ -1,4 +1,3 @@
-PROJECT_SUMMARY.md << 'SUMMARY'
 # TurtleOS Project Summary
 
 ## What Was Built
