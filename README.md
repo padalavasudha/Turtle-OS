@@ -67,7 +67,7 @@ file-write-as driver1 data.txt x   # ✓ Succeeds
 - **Build System**: Cargo
 
 ## Project Structure
-
+```bash
 TurtleOS/
 ├── kernel-simulator/ # Interactive CLI simulator
 │ ├── Cargo.toml
@@ -84,8 +84,7 @@ TurtleOS/
 │ └── kernel.ld
 ├── README.md
 └── Cargo.toml (workspace)
-
-
+```
 ## Performance
 
 - Capability lookup: O(1) HashMap-based
