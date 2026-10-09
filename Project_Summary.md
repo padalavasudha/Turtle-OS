@@ -25,19 +25,19 @@ A **secure ARM64 kernel simulator** demonstrating capability-based access contro
 
 ## What I Did
 ```bash
-**✓ Architected overall security model (CBAC framework)**
-**✓ Designed capability type system (6 types, 4 levels, 5 roles)**
-**✓ Created kernel structure and module organization**
-**✓ Implemented permission checking logic**
-**✓ Generated 1,500+ lines of skeleton code**
-**✓ Tested all permission scenarios** (9 comprehensive tests)
-**✓ Validated security enforcement** (100% denial accuracy)
-**✓ Designed test suite** (20+ test cases)
-**✓ Optimized data structures** (HashMap for O(1) capability lookup)
-**✓ Documented threat model** (10+ attack vectors identified)
-**✓ Created capability revocation system** (verified working)
-**✓ Implemented role-based isolation** (5 privilege levels enforced)
-**✓ Wrote project documentation** (README, technical specs)
+✓ Architected overall security model (CBAC framework)
+✓ Designed capability type system (6 types, 4 levels, 5 roles)
+✓ Created kernel structure and module organization
+✓ Implemented permission checking logic
+✓ Generated 1,500+ lines of skeleton code
+✓ Tested all permission scenarios (9 comprehensive tests)
+✓ Validated security enforcement (100% denial accuracy)
+✓ Designed test suite (20+ test cases)
+✓ Optimized data structures (HashMap for O(1) capability lookup)
+✓ Documented threat model (10+ attack vectors identified)
+✓ Created capability revocation system (verified working)
+✓ Implemented role-based isolation (5 privilege levels enforced)
+✓ Wrote project documentation (README, technical specs)
 ```
 
 ## Key Decisions I Made
@@ -76,7 +76,7 @@ Scenario 9: Privilege escalation verified PASSED
 ```
 **Scenario Results:**
 ```bash
-MINI_OS % ./target/release/ksim
+TURTLE_OS % ./target/release/ksim
 
           ########
        ##############
@@ -571,14 +571,14 @@ Integrity regions: 0
 - I can improve it (know exactly what could be optimized next)
 
 ## Qualifications Demonstrated
-
-✓ **Systems Programming**: ARM64, bare-metal, kernel concepts
-✓ **Security Architecture**: CBAC, threat modeling, access control
-✓ **Software Design**: Module organization, data structures, APIs
-✓ **Testing**: Comprehensive test scenarios, edge cases, validation
-✓ **Communication**: Documentation, technical writing
-✓ **Problem-Solving**: Performance optimization, error handling
-
+```bash
+✓ Systems Programming: ARM64, bare-metal, kernel concepts
+✓ Security Architecture: CBAC, threat modeling, access control
+✓ Software Design: Module organization, data structures, APIs
+✓ Testing: Comprehensive test scenarios, edge cases, validation
+✓ Communication: Documentation, technical writing
+✓ Problem-Solving: Performance optimization, error handling
+```
 ## Metrics
 
 | Metric | Value |
