@@ -73,7 +73,7 @@ Scenario 7: Revoked capability blocks ops PASSED
 Scenario 8: Multi-file isolation enforced PASSED
 Scenario 9: Privilege escalation verified PASSED
 **Scenario Results:**
-
+```bash
 MINI_OS % ./target/release/ksim
 
           ########
@@ -521,7 +521,7 @@ Files: 4
 Integrity regions: 0
 
 > exit
-
+```
 
 **Metrics:**
 - 13 capabilities granted
