@@ -24,7 +24,7 @@ A **secure ARM64 kernel simulator** demonstrating capability-based access contro
    - Real-time capability checking
 
 ## What I Did
-
+```bash
 ✓ Architected overall security model (CBAC framework)
 ✓ Designed capability type system (6 types, 4 levels, 5 roles)
 ✓ Created kernel structure and module organization
@@ -38,7 +38,7 @@ A **secure ARM64 kernel simulator** demonstrating capability-based access contro
 ✓ **Created capability revocation system** (verified working)
 ✓ **Implemented role-based isolation** (5 privilege levels enforced)
 ✓ **Wrote project documentation** (README, technical specs)
-
+```
 
 ## Key Decisions I Made
 
