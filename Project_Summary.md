@@ -25,19 +25,19 @@ A **secure ARM64 kernel simulator** demonstrating capability-based access contro
 
 ## What I Did
 ```bash
-✓ Architected overall security model (CBAC framework)
-✓ Designed capability type system (6 types, 4 levels, 5 roles)
-✓ Created kernel structure and module organization
-✓ Implemented permission checking logic
-✓ Generated 1,500+ lines of skeleton code
-✓ **Tested all permission scenarios** (9 comprehensive tests)
-✓ **Validated security enforcement** (100% denial accuracy)
-✓ **Designed test suite** (20+ test cases)
-✓ **Optimized data structures** (HashMap for O(1) capability lookup)
-✓ **Documented threat model** (10+ attack vectors identified)
-✓ **Created capability revocation system** (verified working)
-✓ **Implemented role-based isolation** (5 privilege levels enforced)
-✓ **Wrote project documentation** (README, technical specs)
+**✓ Architected overall security model (CBAC framework)**
+**✓ Designed capability type system (6 types, 4 levels, 5 roles)**
+**✓ Created kernel structure and module organization**
+**✓ Implemented permission checking logic**
+**✓ Generated 1,500+ lines of skeleton code**
+**✓ Tested all permission scenarios** (9 comprehensive tests)
+**✓ Validated security enforcement** (100% denial accuracy)
+**✓ Designed test suite** (20+ test cases)
+**✓ Optimized data structures** (HashMap for O(1) capability lookup)
+**✓ Documented threat model** (10+ attack vectors identified)
+**✓ Created capability revocation system** (verified working)
+**✓ Implemented role-based isolation** (5 privilege levels enforced)
+**✓ Wrote project documentation** (README, technical specs)
 ```
 
 ## Key Decisions I Made
@@ -63,6 +63,7 @@ A **secure ARM64 kernel simulator** demonstrating capability-based access contro
 - **Scalability**: Easy to add more levels if needed
 
 ## Testing Evidence
+```bash
 Scenario 1: READ-only driver denied WRITE PASSED
 Scenario 2: READ-only driver denied DELETE PASSED
 Scenario 3: READ-only driver can READ PASSED
@@ -72,6 +73,7 @@ Scenario 6: Admin full access (R+W+D) PASSED
 Scenario 7: Revoked capability blocks ops PASSED
 Scenario 8: Multi-file isolation enforced PASSED
 Scenario 9: Privilege escalation verified PASSED
+```
 **Scenario Results:**
 ```bash
 MINI_OS % ./target/release/ksim
