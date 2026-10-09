@@ -11,6 +11,10 @@ TurtleOS is an interactive security kernel simulator built in Rust that demonstr
 - **Permission Enforcement** - Real-time access control validation
 - **Rootkit Detection** - Anomaly scanning and baseline verification
 
+## Demo
+
+![TurtleOS Security Demo](demo.gif)
+
 ## Features
 
 ### Security Model
