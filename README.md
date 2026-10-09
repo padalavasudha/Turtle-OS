@@ -127,9 +127,11 @@ The kernel defends against:
 **Last Updated**: October 2026
 
 ## Author
+```bash
 Vasudha Padala
 Masters in Computer Science
 University of Southern California
+```
 
 ## License
 
