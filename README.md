@@ -111,7 +111,7 @@ The kernel defends against:
 ## Development Timeline
 
 - **Week 5-8**: Bare-metal ARM64 kernel with CBAC
-- **Week 8**: Integration testing (S, 5, 6, 7, D output)
+- **Week 8**: Integration testing
 - **Week 9**: Interactive Rust CLI simulator
 - **Week 10**: Comprehensive security testing (9 scenarios, 100% pass)
 
@@ -123,26 +123,6 @@ The kernel defends against:
 - [ ] Threat model documentation
 - [ ] Comparison with Linux LSM/Capsicum
 
-## Resume Keywords
-
-- Rust, ARM64, Capability-Based Access Control (CBAC)
-- Permission enforcement, Role-Based Access Control (RBAC)
-- Integrity monitoring, Rootkit detection
-- Security testing, Threat modeling
-- Bare-metal kernel development
-
-## Author
-
-Security-focused kernel engineer
-- Skills: Rust, ARM64, Systems Security, CBAC
-- Project: AI-assisted architecture, independent implementation & testing
-
-## License
-
-MIT
-
----
-
 **Status**: Complete & Tested
 **Last Updated**: October 2026
 
@@ -150,3 +130,9 @@ MIT
 Vasudha Padala
 Masters in Computer Science
 University of Southern California
+
+## License
+
+MIT
+
+---
