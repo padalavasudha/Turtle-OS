@@ -1,0 +1,3 @@
+[workspace]
+members = ["secure-arm64-kernel", "kernel-simulator"]
+resolver = "2"
